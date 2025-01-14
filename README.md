@@ -1,5 +1,5 @@
 # 4P02GroupProject
-# AI Powered Newsletter and Social Media Content Generator
+## AI Powered Newsletter and Social Media Content Generator
 
 
 # Overview
