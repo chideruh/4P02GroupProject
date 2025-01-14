@@ -1,12 +1,12 @@
-# 4P02GroupProject
-## AI Powered Newsletter and Social Media Content Generator
+# 4P02GroupProject - AI Powered Newsletter and Social Media Content Generator
 
 
-# Overview
+
+## Overview
 The AI Powered Newsletter and Social Media Content Generator is a SaaS platform designed to automate and personalize the creation of newsletters and social media content. The platform enables users to save time and resources by streamlining content aggregation, summarization, formatting, and scheduling processes.
 
 
-# Objectives
+## Objectives
 - Enable users to define preferences for content (topics, keywords, industries).
 - Automate content aggregation, summarization, and formatting for various platforms.
 - Offer customizable templates aligned with branding guidelines.
@@ -14,7 +14,7 @@ The AI Powered Newsletter and Social Media Content Generator is a SaaS platform 
 - Include advanced features like multi-language support and API integration.
 
 
-# Project Importance
+## Project Importance
 - **Efficiency**: Saves time by automating content creation processes.  
 - **Scalability**: Allows businesses to maintain consistent professional content at scale.  
 - **Customization**: Ensures personalized content tailored to audience preferences.
