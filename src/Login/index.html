@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* Basic styling for the body to center the login form */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        /* Styling for the login container */
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Styling for the heading */
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        /* Styling for the input fields */
+        .login-container input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        /* Styling for the submit button */
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Hover effect for the submit button */
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+        .register-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <!-- Input field for username -->
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <!-- Input field for password -->
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <!-- Submit button for the form -->
+            <button type="submit">Login</button>
+        </form>
+        <!-- Link to the registration page -->
+        <a href="../Register/index.html" class="register-link">Don't have an account? Register here</a>
+    </div>
+</body>
+</html>
