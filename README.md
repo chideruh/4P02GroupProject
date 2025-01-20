@@ -44,6 +44,14 @@ The project follows Agile methodology with bi-weekly sprints. Tasks are assigned
    git clone https://github.com/JadenKBrock/4P02GroupProject.git
 
 
+## Members
+1. Jaden Kuhn
+2. Dea Kukuqani
+3. Shijie Tong
+4. Nicholas Caruso
+5. Thomas Semenak
+6. Dalton Morris
+7. Chidera Nwana
 
 
 
