@@ -1,0 +1,71 @@
+.bc-background-blockchain-1 { background-color: #4C585B; }
+.bc-background-blockchain-2 { background-color: #7E99A3; color: black; }
+.bc-background-blockchain-3 { background-color: #A5BFCC; }
+.bc-background-blockchain-4 { background-color: #F4EDD3; color: black;}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: column; /* Change to column to stack items vertically */
+    align-items: center;
+    padding: 10px;
+    background-color: #4C585B; /* Adjust the background color as needed */
+    color: white; /* Adjust the text color as needed */
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 200px; /* Adjust the height as needed */
+    margin-bottom: 30px; /* Adjust margin to create space between logo and company name */
+}
+/* Styling for the login container */
+.login-container {
+    padding: 20px;
+    padding-top: 0px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Styling for the heading */
+.login-container h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+/* Styling for the input fields */
+.login-container input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Styling for the submit button */
+.login-container button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.login-container button:hover {
+    background-color: #123962;
+}
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}

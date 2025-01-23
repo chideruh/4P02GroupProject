@@ -21,6 +21,17 @@ if (!preg_match('/[A-Z]/', $password)) {
     exit();
 }
 
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "<script>alert('Invalid email format.'); window.history.back();</script>";
+    exit();
+}
+
+// Check if username contains only allowed characters (alphanumeric and underscores)
+if (!preg_match('/^[a-zA-Z0-9_]+$/', $username)) {
+    echo "<script>alert('Username contains invalid characters. Only alphanumeric characters and underscores are allowed.'); window.history.back();</script>";
+    exit();
+}
+
 $con = new mysqli("localhost", "root", "Tsj123456+", "4p02_group_login_db");
 if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
